@@ -101,30 +101,6 @@
         		return $bb[0];
             }	
 		}
-		
-		function totaladmin(){
-        	foreach ($this->select('count(*)','admin')->get() as $bb) {
-        		return $bb[0];
-            }	
-		}
-
-		function totalkaryawan(){
-        	foreach ($this->select('count(*)','karyawan')->get() as $bb) {
-        		return $bb[0];
-            }	
-		}
-
-		function totalkriteria(){
-        	foreach ($this->select('count(*)','kriteria')->get() as $bb) {
-        		return $bb[0];
-            }	
-		}
-
-		function totalsubkriteria(){
-        	foreach ($this->select('count(*)','sub_kriteria')->get() as $bb) {
-        		return $bb[0];
-            }	
-		}
 
 		function getnamesubkriteria($subkriteria)
 		{

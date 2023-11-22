@@ -5,7 +5,7 @@
                 <div class="col-md-12">
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
-                            <li><a href="index.php" id="home">Dashboard</a></li>
+                            <li><a href="index.php" id="home">Beranda</a></li>
                             <li><a href="tampil_santri.php" id="ck">Santri</a></li>
                             <li><a href="tampil_kriteria.php" id="ds">Kriteria</a></li>
                             <li><a href="tampil_tpa.php" id="tpa">Penilaian Santri</a></li>
